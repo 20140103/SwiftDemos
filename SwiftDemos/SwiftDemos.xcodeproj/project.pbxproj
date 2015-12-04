@@ -7,17 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B026FB91C11711D005089B5 /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B026FB81C11711D005089B5 /* RootTableViewController.swift */; };
+		7B026FC11C11896F005089B5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B026FBB1C11896F005089B5 /* Model.swift */; };
+		7B026FC21C11896F005089B5 /* NibTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B026FBC1C11896F005089B5 /* NibTableViewCell.swift */; };
+		7B026FC31C11896F005089B5 /* NibTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B026FBD1C11896F005089B5 /* NibTableViewCell.xib */; };
+		7B026FC61C11896F005089B5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B026FC01C11896F005089B5 /* TableViewController.swift */; };
+		7B026FC81C118983005089B5 /* SelfSizeCellDemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B026FC71C118983005089B5 /* SelfSizeCellDemoTableViewController.swift */; };
+		7B026FCA1C118A16005089B5 /* SelfSizeCellTableViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B026FC91C118A16005089B5 /* SelfSizeCellTableViewTableViewCell.swift */; };
 		9DF9D7FE1C1085ED0027D109 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9D7FD1C1085ED0027D109 /* AppDelegate.swift */; };
-		9DF9D8001C1085ED0027D109 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9D7FF1C1085ED0027D109 /* ViewController.swift */; };
 		9DF9D8031C1085ED0027D109 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF9D8011C1085ED0027D109 /* Main.storyboard */; };
 		9DF9D8051C1085ED0027D109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF9D8041C1085ED0027D109 /* Assets.xcassets */; };
 		9DF9D8081C1085ED0027D109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF9D8061C1085ED0027D109 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B026FB81C11711D005089B5 /* RootTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTableViewController.swift; sourceTree = "<group>"; };
+		7B026FBB1C11896F005089B5 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7B026FBC1C11896F005089B5 /* NibTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibTableViewCell.swift; sourceTree = "<group>"; };
+		7B026FBD1C11896F005089B5 /* NibTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NibTableViewCell.xib; sourceTree = "<group>"; };
+		7B026FC01C11896F005089B5 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7B026FC71C118983005089B5 /* SelfSizeCellDemoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfSizeCellDemoTableViewController.swift; sourceTree = "<group>"; };
+		7B026FC91C118A16005089B5 /* SelfSizeCellTableViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfSizeCellTableViewTableViewCell.swift; sourceTree = "<group>"; };
 		9DF9D7FA1C1085ED0027D109 /* SwiftDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF9D7FD1C1085ED0027D109 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DF9D7FF1C1085ED0027D109 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9DF9D8021C1085ED0027D109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DF9D8041C1085ED0027D109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DF9D8071C1085ED0027D109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +47,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B026FB71C1170E8005089B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DF9D7FD1C1085ED0027D109 /* AppDelegate.swift */,
+				9DF9D8041C1085ED0027D109 /* Assets.xcassets */,
+				9DF9D8061C1085ED0027D109 /* LaunchScreen.storyboard */,
+				9DF9D8091C1085ED0027D109 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B026FBA1C1188C8005089B5 /* TableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7B026FC71C118983005089B5 /* SelfSizeCellDemoTableViewController.swift */,
+				7B026FC91C118A16005089B5 /* SelfSizeCellTableViewTableViewCell.swift */,
+				7B026FBB1C11896F005089B5 /* Model.swift */,
+				7B026FBC1C11896F005089B5 /* NibTableViewCell.swift */,
+				7B026FBD1C11896F005089B5 /* NibTableViewCell.xib */,
+				7B026FC01C11896F005089B5 /* TableViewController.swift */,
+			);
+			name = TableViewDemo;
+			sourceTree = "<group>";
+		};
 		9DF9D7F11C1085ED0027D109 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +90,10 @@
 		9DF9D7FC1C1085ED0027D109 /* SwiftDemos */ = {
 			isa = PBXGroup;
 			children = (
-				9DF9D7FD1C1085ED0027D109 /* AppDelegate.swift */,
-				9DF9D7FF1C1085ED0027D109 /* ViewController.swift */,
+				7B026FBA1C1188C8005089B5 /* TableViewDemo */,
+				7B026FB71C1170E8005089B5 /* Supporting Files */,
 				9DF9D8011C1085ED0027D109 /* Main.storyboard */,
-				9DF9D8041C1085ED0027D109 /* Assets.xcassets */,
-				9DF9D8061C1085ED0027D109 /* LaunchScreen.storyboard */,
-				9DF9D8091C1085ED0027D109 /* Info.plist */,
+				7B026FB81C11711D005089B5 /* RootTableViewController.swift */,
 			);
 			path = SwiftDemos;
 			sourceTree = "<group>";
@@ -124,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DF9D8081C1085ED0027D109 /* LaunchScreen.storyboard in Resources */,
+				7B026FC31C11896F005089B5 /* NibTableViewCell.xib in Resources */,
 				9DF9D8051C1085ED0027D109 /* Assets.xcassets in Resources */,
 				9DF9D8031C1085ED0027D109 /* Main.storyboard in Resources */,
 			);
@@ -136,7 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DF9D8001C1085ED0027D109 /* ViewController.swift in Sources */,
+				7B026FC11C11896F005089B5 /* Model.swift in Sources */,
+				7B026FC81C118983005089B5 /* SelfSizeCellDemoTableViewController.swift in Sources */,
+				7B026FC61C11896F005089B5 /* TableViewController.swift in Sources */,
+				7B026FC21C11896F005089B5 /* NibTableViewCell.swift in Sources */,
+				7B026FCA1C118A16005089B5 /* SelfSizeCellTableViewTableViewCell.swift in Sources */,
+				7B026FB91C11711D005089B5 /* RootTableViewController.swift in Sources */,
 				9DF9D7FE1C1085ED0027D109 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +327,7 @@
 				9DF9D80E1C1085ED0027D109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

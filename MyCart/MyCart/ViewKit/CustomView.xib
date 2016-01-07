@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomView" customModule="MyCart" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelButton" destination="eBH-EP-yaW" id="Dup-p3-PGJ"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="KwT-u4-oMv"/>
+                <outlet property="randerButton" destination="3AO-ll-uck" id="Pwj-8E-ifN"/>
+                <outlet property="searchBar" destination="tgq-ER-7JK" id="qOe-mX-KHu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="690" height="125"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3AO-ll-uck">
+                    <rect key="frame" x="624" y="48" width="46" height="30"/>
+                    <animations/>
+                    <state key="normal" title="Button"/>
+                </button>
+                <searchBar contentMode="redraw" text="商品，商店" scopeBarBackgroundImage="Animation-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="tgq-ER-7JK">
+                    <rect key="frame" x="70" y="41" width="554" height="44"/>
+                    <animations/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBH-EP-yaW">
+                    <rect key="frame" x="632" y="48" width="38" height="30"/>
+                    <animations/>
+                    <state key="normal" title="取消"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dpb-L8-goW" customClass="DropDownList" customModule="MyCart" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="41" width="70" height="44"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.96470588239999999" green="0.49803921569999998" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="McG-nW-6Yx"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <constraints>
+                <constraint firstItem="eBH-EP-yaW" firstAttribute="leading" secondItem="tgq-ER-7JK" secondAttribute="trailing" constant="8" symbolic="YES" id="7IQ-AU-CAn"/>
+                <constraint firstItem="dpb-L8-goW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="CFw-aE-mBx"/>
+                <constraint firstItem="eBH-EP-yaW" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="CfZ-G5-ZQj"/>
+                <constraint firstAttribute="trailing" secondItem="eBH-EP-yaW" secondAttribute="trailing" constant="20" symbolic="YES" id="FOP-Fc-whr"/>
+                <constraint firstItem="tgq-ER-7JK" firstAttribute="bottom" secondItem="dpb-L8-goW" secondAttribute="bottom" id="Ty5-QB-hiY"/>
+                <constraint firstItem="3AO-ll-uck" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="cp7-RR-H5A"/>
+                <constraint firstItem="tgq-ER-7JK" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="fs9-qj-hLP"/>
+                <constraint firstItem="tgq-ER-7JK" firstAttribute="leading" secondItem="dpb-L8-goW" secondAttribute="trailing" id="iS6-B8-qJ6"/>
+                <constraint firstItem="3AO-ll-uck" firstAttribute="leading" secondItem="tgq-ER-7JK" secondAttribute="trailing" id="ryZ-7M-Edt"/>
+                <constraint firstItem="tgq-ER-7JK" firstAttribute="top" secondItem="dpb-L8-goW" secondAttribute="top" id="vgl-6n-r29"/>
+                <constraint firstAttribute="trailing" secondItem="3AO-ll-uck" secondAttribute="trailing" constant="20" symbolic="YES" id="zNi-aY-kLx"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="135" y="394.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Animation-1.png" width="85" height="85"/>
+    </resources>
+</document>

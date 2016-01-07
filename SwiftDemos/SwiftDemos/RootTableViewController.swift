@@ -15,16 +15,23 @@ struct Theme {
 struct Demo{
     var demoTitle:String!
     var description:String!
-    var viewControllerID:String!
+    var viewControllerID:String!//在stroyboard中设置的标识名称与类名一至
 }
 
 
 class RootTableViewController: UITableViewController {
 
     let themes:[Theme] = [
-        Theme(themeName: "UITableViewController", demos: [Demo(demoTitle: "test1",description:"test1", viewControllerID: "SelfSizeCellDemoTableViewController")
-                                                           ,Demo(demoTitle: "test2",description:"test2", viewControllerID: "TableViewController")
-                                                            ])
+        Theme(themeName: "UITableViewController",
+            demos: [Demo(demoTitle: "SelfSizeCellDemoTableViewController",description:"SelfSizeCellDemoTableViewController", viewControllerID: "SelfSizeCellDemoTableViewController")
+                   ,Demo(demoTitle: "TableViewController",description:"TableViewController", viewControllerID: "TableViewController")
+                    ,Demo(demoTitle: "ARCViewController",description:"ARCViewController", viewControllerID: "ARCViewController")
+                ,Demo(demoTitle: "AlertViewController",description:"AlertViewController", viewControllerID: "AlertViewController")
+                //MotionManagerViewController
+                ,Demo(demoTitle: "MotionManagerViewController",description:"MotionManagerViewController", viewControllerID: "MotionManagerViewController")
+            ]
+            
+        )
     ]
     
     
@@ -61,7 +68,7 @@ class RootTableViewController: UITableViewController {
 
         // Configure the cell...
         cell.textLabel?.text = themes[indexPath.section].demos[indexPath.row].demoTitle
-        cell.detailTextLabel?.text = themes[indexPath.section].demos[indexPath.row].description
+        cell.detailTextLabel?.text = themes[indexPath.section].demos[indexPath.row].viewControllerID
         return cell
     }
     override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {

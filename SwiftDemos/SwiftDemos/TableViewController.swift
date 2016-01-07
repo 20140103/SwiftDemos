@@ -18,9 +18,9 @@ class TableViewController: UITableViewController
         super.viewDidLoad()
         
         title = "iOS 8 Self Sizing Cells"
-        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Trash, target: self, action: "clear")
-        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Add, target: self, action: "addRow")
-        
+        //navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Trash, target: self, action: "clear")
+//        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Add, target: self, action: "addRow")
+        //navigationItem.rightBarButtonItems?.append(UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Add, target: self, action: "addRow"))
         tableView.allowsSelection = false
         
         
@@ -77,7 +77,14 @@ class TableViewController: UITableViewController
         
         tableView.deleteRowsAtIndexPaths(rowsToDelete, withRowAnimation: .Automatic)
     }
+    @IBAction func clear(sender: UIBarButtonItem) {
+        clear()
+    }
     
+    @IBAction func addRow(sender: UIBarButtonItem) {
+        addRow()
+    }
+
     // Adds a single row to the table view
     func addRow()
     {

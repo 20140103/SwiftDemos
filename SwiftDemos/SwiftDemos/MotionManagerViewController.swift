@@ -5,53 +5,65 @@
 //  Created by tdc-sw on 16/1/7.
 //  Copyright © 2016年 twt. All rights reserved.
 //
+/*
+运动传感器\加速度传感器\加速计（Motion/Accelerometer Sensor）
+环境光传感器（Ambient Light Sensor）
+距离传感器（Proximity Sensor）
+磁力计传感器（Magnetometer Sensor）
+内部温度传感器（Internal Temperature Sensor）
+湿度传感器（Moisture Sensor）
+陀螺仪（Gyroscope）
 
+*/
 import UIKit
 import CoreMotion
 
 class MotionManagerViewController: UIViewController {
     
-    @IBOutlet var graphViews: [APLGraphView]!
+    @IBOutlet var xLabel: UILabel!
+ 
+    @IBOutlet var yLabel: UILabel!
+    
+    @IBOutlet var zLabel: UILabel!
+    
+    @IBOutlet var updateIntervalLabel: UILabel!
+    
+    @IBOutlet var updateIntervalSlider: UISlider!
+    
     var motionManger:CMMotionManager!
     
-    let gyroChangeBlock = { (gyroData:CMGyroData?,error:NSError?) in
-        MotionManagerViewController.gyroChange(gyroData, error: nil)
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         motionManger =  CMMotionManager()
-        showGraphAtIndex(0)
+        self.updateIntervalSlider.value = 0.0
     }
     override func viewDidAppear(animated: Bool) {
-        if(motionManger.gyroAvailable){
-            motionManger.gyroUpdateInterval = 1/10
-            //            motionManger.startGyroUpdatesToQueue(NSOperationQueue.mainQueue(), withHandler: gyroChangeBlock)
-            motionManger.startGyroUpdatesToQueue(NSOperationQueue.mainQueue(), withHandler: { (gyroData:CMGyroData?,error:NSError?) in
-//                    MotionManagerViewController.gyroChange(gyroData, error: nil)
-                    self.graphViews[0].addX(gyroData!.rotationRate.x, y: gyroData!.rotationRate.y , z: gyroData!.rotationRate.z)
-                }
-            )
-        }
-        
+        super.viewDidAppear(true)
+//        [self startUpdatesWithSliderValue:(int)(self.updateIntervalSlider.value * 100)];
+        self.startUpdatesWithSliderValue(Int(self.updateIntervalSlider.value * 100.0))
     }
     override func viewDidDisappear(animated: Bool) {
-        self.motionManger.stopGyroUpdates()
+        super.viewDidDisappear(animated)
+        stopUpdates()
     }
     
-    func proximityChange(notification:NSNotificationCenter){
-        print("proximityState = \(UIDevice.currentDevice().proximityState)")
+    @IBAction func takeSliderValueFrom(sender: UISlider) {
+        self.startUpdatesWithSliderValue(Int(sender.value * 100))
     }
-    class func gyroChange(gyroData:CMGyroData?,error:NSError?){
-        print("\(gyroData!.rotationRate.x, gyroData!.rotationRate.y , gyroData!.rotationRate.z)")
-//        [[weakSelf.graphViews objectAtIndex:kDeviceMotionGraphTypeRotationRate] addX:deviceMotion.rotationRate.x y:deviceMotion.rotationRate.y z:deviceMotion.rotationRate.z];
+    func setLabelValueX(x:Double,y:Double,z:Double){
+        self.xLabel.text = String(format: "x:%.4f", x)
+        self.yLabel.text = String(format: "y:%.4f", y)//"y:\(y)"
+        self.zLabel.text = String(format: "z:%.4f", z)//"z:\(z)"
     }
-    
-    func showGraphAtIndex(selectedIndex:Int){
-        for (index,value) in self.graphViews.enumerate(){
-            let hidden = index != selectedIndex
-            value.hidden = hidden
-        }
+    func setLabelValueRoll(roll:Double,pitch:Double,yaw:Double){
+        self.xLabel.text = String(format: "roll:.4f", roll)
+        self.yLabel.text = String(format: "pitch:.4f", pitch)//"pitch:\(pitch)"
+        self.zLabel.text = String(format: "yaw:.4f", yaw)//"yaw:\(yaw)"
+    }
+    func startUpdatesWithSliderValue(sliderValue:Int){
+        
+    }
+    func stopUpdates(){
         
     }
 }

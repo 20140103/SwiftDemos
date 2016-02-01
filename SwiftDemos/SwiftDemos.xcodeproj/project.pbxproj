@@ -16,9 +16,32 @@
 		7B026FCA1C118A16005089B5 /* SelfSizeCellTableViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B026FC91C118A16005089B5 /* SelfSizeCellTableViewTableViewCell.swift */; };
 		7B183FEB1C167402007F25C7 /* ARCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B183FEA1C167402007F25C7 /* ARCViewController.swift */; };
 		7B183FED1C16786F007F25C7 /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B183FEC1C16786F007F25C7 /* ImageButton.swift */; };
+		7B1949191C51DBF300B6C97F /* BleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1949181C51DBF300B6C97F /* BleManager.swift */; };
+		7B1CF4DF1C508AFA006F239B /* ActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1CF4DE1C508AFA006F239B /* ActionTableViewCell.swift */; };
 		7B28855F1C3E121700A42FAA /* MotionManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B28855E1C3E121700A42FAA /* MotionManagerViewController.swift */; };
 		7B2885611C3E167300A42FAA /* APLGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2885601C3E167300A42FAA /* APLGraphView.swift */; };
+		7B3C8A2D1C43A7D1008081AD /* LocationManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C8A2C1C43A7D1008081AD /* LocationManagerViewController.swift */; };
+		7B991E0A1C4F6BF000E8E5F8 /* CharacteristicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B991E091C4F6BF000E8E5F8 /* CharacteristicTableViewController.swift */; };
+		7B9DB0211C4497F9002C0F29 /* MoreSensorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DB0201C4497F9002C0F29 /* MoreSensorViewController.swift */; };
+		7B9DB0231C449D5E002C0F29 /* MagnetometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DB0221C449D5E002C0F29 /* MagnetometerViewController.swift */; };
+		7B9DB0261C44D395002C0F29 /* BluetoolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DB0251C44D395002C0F29 /* BluetoolsTableViewController.swift */; };
+		7B9DB0281C44D3C4002C0F29 /* BluetoolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DB0271C44D3C4002C0F29 /* BluetoolsTableViewCell.swift */; };
+		7B9DB0321C44D810002C0F29 /* signal-strength-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9DB0291C44D810002C0F29 /* signal-strength-1@2x.png */; };
+		7B9DB0331C44D810002C0F29 /* signal-strength-1a@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9DB02A1C44D810002C0F29 /* signal-strength-1a@2x.png */; };
+		7B9DB0341C44D810002C0F29 /* signal-strength-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9DB02B1C44D810002C0F29 /* signal-strength-2@2x.png */; };
+		7B9DB0351C44D810002C0F29 /* signal-strength-2a@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9DB02C1C44D810002C0F29 /* signal-strength-2a@2x.png */; };
+		7B9DB0361C44D810002C0F29 /* signal-strength-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9DB02D1C44D810002C0F29 /* signal-strength-3@2x.png */; };
+		7B9DB0371C44D810002C0F29 /* signal-strength-3a@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9DB02E1C44D810002C0F29 /* signal-strength-3a@2x.png */; };
+		7B9DB0381C44D810002C0F29 /* signal-strength-4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9DB02F1C44D810002C0F29 /* signal-strength-4@2x.png */; };
+		7B9DB0391C44D810002C0F29 /* signal-strength-4a@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9DB0301C44D810002C0F29 /* signal-strength-4a@2x.png */; };
+		7B9DB03A1C44D810002C0F29 /* signal-strength-5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9DB0311C44D810002C0F29 /* signal-strength-5@2x.png */; };
 		7BE394271C3B63B2005AEEC6 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE394261C3B63B2005AEEC6 /* AlertViewController.swift */; };
+		7BE3E9401C4756DC0024CC3F /* NibTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BE3E93F1C4756DC0024CC3F /* NibTableViewHeaderView.xib */; };
+		7BE3E9421C47573F0024CC3F /* NibTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3E9411C47573F0024CC3F /* NibTableViewHeaderView.swift */; };
+		7BE6A7701C4641C9009838DE /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE6A76F1C4641C9009838DE /* ServicesTableViewController.swift */; };
+		7BFD5C9D1C3FAB25004DD3BD /* AccelerometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFD5C9C1C3FAB25004DD3BD /* AccelerometerViewController.swift */; };
+		7BFD5CA11C3FB5C8004DD3BD /* CyroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFD5CA01C3FB5C8004DD3BD /* CyroViewController.swift */; };
+		7BFD5CA31C3FB8FD004DD3BD /* DeviceMotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFD5CA21C3FB8FD004DD3BD /* DeviceMotionViewController.swift */; };
 		9DF9D7FE1C1085ED0027D109 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9D7FD1C1085ED0027D109 /* AppDelegate.swift */; };
 		9DF9D8031C1085ED0027D109 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF9D8011C1085ED0027D109 /* Main.storyboard */; };
 		9DF9D8051C1085ED0027D109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF9D8041C1085ED0027D109 /* Assets.xcassets */; };
@@ -35,9 +58,32 @@
 		7B026FC91C118A16005089B5 /* SelfSizeCellTableViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfSizeCellTableViewTableViewCell.swift; sourceTree = "<group>"; };
 		7B183FEA1C167402007F25C7 /* ARCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCViewController.swift; sourceTree = "<group>"; };
 		7B183FEC1C16786F007F25C7 /* ImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageButton.swift; sourceTree = "<group>"; };
+		7B1949181C51DBF300B6C97F /* BleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleManager.swift; sourceTree = "<group>"; };
+		7B1CF4DE1C508AFA006F239B /* ActionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionTableViewCell.swift; sourceTree = "<group>"; };
 		7B28855E1C3E121700A42FAA /* MotionManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionManagerViewController.swift; sourceTree = "<group>"; };
 		7B2885601C3E167300A42FAA /* APLGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APLGraphView.swift; sourceTree = "<group>"; };
+		7B3C8A2C1C43A7D1008081AD /* LocationManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManagerViewController.swift; sourceTree = "<group>"; };
+		7B991E091C4F6BF000E8E5F8 /* CharacteristicTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacteristicTableViewController.swift; sourceTree = "<group>"; };
+		7B9DB0201C4497F9002C0F29 /* MoreSensorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreSensorViewController.swift; sourceTree = "<group>"; };
+		7B9DB0221C449D5E002C0F29 /* MagnetometerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagnetometerViewController.swift; sourceTree = "<group>"; };
+		7B9DB0251C44D395002C0F29 /* BluetoolsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoolsTableViewController.swift; sourceTree = "<group>"; };
+		7B9DB0271C44D3C4002C0F29 /* BluetoolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoolsTableViewCell.swift; sourceTree = "<group>"; };
+		7B9DB0291C44D810002C0F29 /* signal-strength-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signal-strength-1@2x.png"; sourceTree = "<group>"; };
+		7B9DB02A1C44D810002C0F29 /* signal-strength-1a@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signal-strength-1a@2x.png"; sourceTree = "<group>"; };
+		7B9DB02B1C44D810002C0F29 /* signal-strength-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signal-strength-2@2x.png"; sourceTree = "<group>"; };
+		7B9DB02C1C44D810002C0F29 /* signal-strength-2a@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signal-strength-2a@2x.png"; sourceTree = "<group>"; };
+		7B9DB02D1C44D810002C0F29 /* signal-strength-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signal-strength-3@2x.png"; sourceTree = "<group>"; };
+		7B9DB02E1C44D810002C0F29 /* signal-strength-3a@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signal-strength-3a@2x.png"; sourceTree = "<group>"; };
+		7B9DB02F1C44D810002C0F29 /* signal-strength-4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signal-strength-4@2x.png"; sourceTree = "<group>"; };
+		7B9DB0301C44D810002C0F29 /* signal-strength-4a@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signal-strength-4a@2x.png"; sourceTree = "<group>"; };
+		7B9DB0311C44D810002C0F29 /* signal-strength-5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signal-strength-5@2x.png"; sourceTree = "<group>"; };
 		7BE394261C3B63B2005AEEC6 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		7BE3E93F1C4756DC0024CC3F /* NibTableViewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NibTableViewHeaderView.xib; sourceTree = "<group>"; };
+		7BE3E9411C47573F0024CC3F /* NibTableViewHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibTableViewHeaderView.swift; sourceTree = "<group>"; };
+		7BE6A76F1C4641C9009838DE /* ServicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
+		7BFD5C9C1C3FAB25004DD3BD /* AccelerometerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccelerometerViewController.swift; sourceTree = "<group>"; };
+		7BFD5CA01C3FB5C8004DD3BD /* CyroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyroViewController.swift; sourceTree = "<group>"; };
+		7BFD5CA21C3FB8FD004DD3BD /* DeviceMotionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceMotionViewController.swift; sourceTree = "<group>"; };
 		9DF9D7FA1C1085ED0027D109 /* SwiftDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF9D7FD1C1085ED0027D109 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DF9D8021C1085ED0027D109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,6 +106,15 @@
 		7B026FB71C1170E8005089B5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7B9DB0291C44D810002C0F29 /* signal-strength-1@2x.png */,
+				7B9DB02A1C44D810002C0F29 /* signal-strength-1a@2x.png */,
+				7B9DB02B1C44D810002C0F29 /* signal-strength-2@2x.png */,
+				7B9DB02C1C44D810002C0F29 /* signal-strength-2a@2x.png */,
+				7B9DB02D1C44D810002C0F29 /* signal-strength-3@2x.png */,
+				7B9DB02E1C44D810002C0F29 /* signal-strength-3a@2x.png */,
+				7B9DB02F1C44D810002C0F29 /* signal-strength-4@2x.png */,
+				7B9DB0301C44D810002C0F29 /* signal-strength-4a@2x.png */,
+				7B9DB0311C44D810002C0F29 /* signal-strength-5@2x.png */,
 				9DF9D7FD1C1085ED0027D109 /* AppDelegate.swift */,
 				9DF9D8041C1085ED0027D109 /* Assets.xcassets */,
 				9DF9D8061C1085ED0027D109 /* LaunchScreen.storyboard */,
@@ -86,8 +141,36 @@
 			children = (
 				7B28855E1C3E121700A42FAA /* MotionManagerViewController.swift */,
 				7B2885601C3E167300A42FAA /* APLGraphView.swift */,
+				7BFD5C9C1C3FAB25004DD3BD /* AccelerometerViewController.swift */,
+				7BFD5CA01C3FB5C8004DD3BD /* CyroViewController.swift */,
+				7BFD5CA21C3FB8FD004DD3BD /* DeviceMotionViewController.swift */,
+				7B9DB0201C4497F9002C0F29 /* MoreSensorViewController.swift */,
+				7B9DB0221C449D5E002C0F29 /* MagnetometerViewController.swift */,
 			);
 			name = MotionManager;
+			sourceTree = "<group>";
+		};
+		7B3C8A2B1C43A7AC008081AD /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				7B3C8A2C1C43A7D1008081AD /* LocationManagerViewController.swift */,
+			);
+			name = LocationManager;
+			sourceTree = "<group>";
+		};
+		7B9DB0241C44D05A002C0F29 /* Bluetools */ = {
+			isa = PBXGroup;
+			children = (
+				7B9DB0251C44D395002C0F29 /* BluetoolsTableViewController.swift */,
+				7B9DB0271C44D3C4002C0F29 /* BluetoolsTableViewCell.swift */,
+				7BE6A76F1C4641C9009838DE /* ServicesTableViewController.swift */,
+				7BE3E9411C47573F0024CC3F /* NibTableViewHeaderView.swift */,
+				7BE3E93F1C4756DC0024CC3F /* NibTableViewHeaderView.xib */,
+				7B991E091C4F6BF000E8E5F8 /* CharacteristicTableViewController.swift */,
+				7B1CF4DE1C508AFA006F239B /* ActionTableViewCell.swift */,
+				7B1949181C51DBF300B6C97F /* BleManager.swift */,
+			);
+			name = Bluetools;
 			sourceTree = "<group>";
 		};
 		7BE394281C3B63C8005AEEC6 /* ARCView */ = {
@@ -126,6 +209,8 @@
 		9DF9D7FC1C1085ED0027D109 /* SwiftDemos */ = {
 			isa = PBXGroup;
 			children = (
+				7B9DB0241C44D05A002C0F29 /* Bluetools */,
+				7B3C8A2B1C43A7AC008081AD /* LocationManager */,
 				7B28855D1C3E11ED00A42FAA /* MotionManager */,
 				7BE394291C3B63F3005AEEC6 /* Alert */,
 				7BE394281C3B63C8005AEEC6 /* ARCView */,
@@ -196,10 +281,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B9DB0351C44D810002C0F29 /* signal-strength-2a@2x.png in Resources */,
 				9DF9D8081C1085ED0027D109 /* LaunchScreen.storyboard in Resources */,
 				7B026FC31C11896F005089B5 /* NibTableViewCell.xib in Resources */,
 				9DF9D8051C1085ED0027D109 /* Assets.xcassets in Resources */,
+				7B9DB0361C44D810002C0F29 /* signal-strength-3@2x.png in Resources */,
+				7B9DB0331C44D810002C0F29 /* signal-strength-1a@2x.png in Resources */,
 				9DF9D8031C1085ED0027D109 /* Main.storyboard in Resources */,
+				7B9DB0381C44D810002C0F29 /* signal-strength-4@2x.png in Resources */,
+				7B9DB03A1C44D810002C0F29 /* signal-strength-5@2x.png in Resources */,
+				7B9DB0371C44D810002C0F29 /* signal-strength-3a@2x.png in Resources */,
+				7BE3E9401C4756DC0024CC3F /* NibTableViewHeaderView.xib in Resources */,
+				7B9DB0341C44D810002C0F29 /* signal-strength-2@2x.png in Resources */,
+				7B9DB0391C44D810002C0F29 /* signal-strength-4a@2x.png in Resources */,
+				7B9DB0321C44D810002C0F29 /* signal-strength-1@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,17 +306,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B183FEB1C167402007F25C7 /* ARCViewController.swift in Sources */,
+				7BFD5CA31C3FB8FD004DD3BD /* DeviceMotionViewController.swift in Sources */,
+				7B9DB0261C44D395002C0F29 /* BluetoolsTableViewController.swift in Sources */,
 				7B026FC11C11896F005089B5 /* Model.swift in Sources */,
+				7BE6A7701C4641C9009838DE /* ServicesTableViewController.swift in Sources */,
+				7B1CF4DF1C508AFA006F239B /* ActionTableViewCell.swift in Sources */,
+				7B9DB0211C4497F9002C0F29 /* MoreSensorViewController.swift in Sources */,
+				7B1949191C51DBF300B6C97F /* BleManager.swift in Sources */,
+				7B9DB0231C449D5E002C0F29 /* MagnetometerViewController.swift in Sources */,
 				7B026FC81C118983005089B5 /* SelfSizeCellDemoTableViewController.swift in Sources */,
 				7BE394271C3B63B2005AEEC6 /* AlertViewController.swift in Sources */,
 				7B026FC61C11896F005089B5 /* TableViewController.swift in Sources */,
+				7BE3E9421C47573F0024CC3F /* NibTableViewHeaderView.swift in Sources */,
 				7B183FED1C16786F007F25C7 /* ImageButton.swift in Sources */,
 				7B28855F1C3E121700A42FAA /* MotionManagerViewController.swift in Sources */,
+				7B9DB0281C44D3C4002C0F29 /* BluetoolsTableViewCell.swift in Sources */,
 				7B026FC21C11896F005089B5 /* NibTableViewCell.swift in Sources */,
+				7B991E0A1C4F6BF000E8E5F8 /* CharacteristicTableViewController.swift in Sources */,
+				7B3C8A2D1C43A7D1008081AD /* LocationManagerViewController.swift in Sources */,
 				7B026FCA1C118A16005089B5 /* SelfSizeCellTableViewTableViewCell.swift in Sources */,
+				7BFD5C9D1C3FAB25004DD3BD /* AccelerometerViewController.swift in Sources */,
 				7B026FB91C11711D005089B5 /* RootTableViewController.swift in Sources */,
 				9DF9D7FE1C1085ED0027D109 /* AppDelegate.swift in Sources */,
 				7B2885611C3E167300A42FAA /* APLGraphView.swift in Sources */,
+				7BFD5CA11C3FB5C8004DD3BD /* CyroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

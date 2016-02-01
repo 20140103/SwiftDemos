@@ -28,7 +28,11 @@ class RootTableViewController: UITableViewController {
                     ,Demo(demoTitle: "ARCViewController",description:"ARCViewController", viewControllerID: "ARCViewController")
                 ,Demo(demoTitle: "AlertViewController",description:"AlertViewController", viewControllerID: "AlertViewController")
                 //MotionManagerViewController
-                ,Demo(demoTitle: "MotionManagerViewController",description:"MotionManagerViewController", viewControllerID: "MotionManagerViewController")
+                ,Demo(demoTitle: "MotionManagerViewController",description:"MotionManagerViewController", viewControllerID: "UITabBarController")
+                //LocationManagerViewController
+                ,Demo(demoTitle: "LocationManagerViewController",description:"LocationManagerViewController", viewControllerID: "LocationManagerViewController")
+                //BluetoolsTableViewController
+                ,Demo(demoTitle: "BluetoolsTableViewController",description:"BluetoolsTableViewController", viewControllerID: "BluetoolsTableViewController")
             ]
             
         )

@@ -33,6 +33,8 @@ class RootTableViewController: UITableViewController {
                 ,Demo(demoTitle: "LocationManagerViewController",description:"LocationManagerViewController", viewControllerID: "LocationManagerViewController")
                 //BluetoolsTableViewController
                 ,Demo(demoTitle: "BluetoolsTableViewController",description:"BluetoolsTableViewController", viewControllerID: "BluetoolsTableViewController")
+                //DataParserViewController
+                ,Demo(demoTitle: "DataParserViewController",description:"DataParserViewController", viewControllerID: "DataParserViewController")
             ]
             
         )

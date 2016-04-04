@@ -42,6 +42,9 @@
 		7BFD5C9D1C3FAB25004DD3BD /* AccelerometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFD5C9C1C3FAB25004DD3BD /* AccelerometerViewController.swift */; };
 		7BFD5CA11C3FB5C8004DD3BD /* CyroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFD5CA01C3FB5C8004DD3BD /* CyroViewController.swift */; };
 		7BFD5CA31C3FB8FD004DD3BD /* DeviceMotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFD5CA21C3FB8FD004DD3BD /* DeviceMotionViewController.swift */; };
+		9DEF09D41CB29DA60001DDE8 /* DataParserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF09D31CB29DA60001DDE8 /* DataParserViewController.swift */; };
+		9DEF09D61CB29E230001DDE8 /* province_data.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9DEF09D51CB29E230001DDE8 /* province_data.xml */; };
+		9DEF09D81CB2A7B80001DDE8 /* ProvinceCityDistrictPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF09D71CB2A7B80001DDE8 /* ProvinceCityDistrictPickerView.swift */; };
 		9DF9D7FE1C1085ED0027D109 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9D7FD1C1085ED0027D109 /* AppDelegate.swift */; };
 		9DF9D8031C1085ED0027D109 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF9D8011C1085ED0027D109 /* Main.storyboard */; };
 		9DF9D8051C1085ED0027D109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF9D8041C1085ED0027D109 /* Assets.xcassets */; };
@@ -84,6 +87,9 @@
 		7BFD5C9C1C3FAB25004DD3BD /* AccelerometerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccelerometerViewController.swift; sourceTree = "<group>"; };
 		7BFD5CA01C3FB5C8004DD3BD /* CyroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyroViewController.swift; sourceTree = "<group>"; };
 		7BFD5CA21C3FB8FD004DD3BD /* DeviceMotionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceMotionViewController.swift; sourceTree = "<group>"; };
+		9DEF09D31CB29DA60001DDE8 /* DataParserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataParserViewController.swift; sourceTree = "<group>"; };
+		9DEF09D51CB29E230001DDE8 /* province_data.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = province_data.xml; sourceTree = "<group>"; };
+		9DEF09D71CB2A7B80001DDE8 /* ProvinceCityDistrictPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvinceCityDistrictPickerView.swift; sourceTree = "<group>"; };
 		9DF9D7FA1C1085ED0027D109 /* SwiftDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF9D7FD1C1085ED0027D109 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DF9D8021C1085ED0027D109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -190,6 +196,16 @@
 			name = Alert;
 			sourceTree = "<group>";
 		};
+		9DEF09D21CB29D420001DDE8 /* DataParser */ = {
+			isa = PBXGroup;
+			children = (
+				9DEF09D51CB29E230001DDE8 /* province_data.xml */,
+				9DEF09D31CB29DA60001DDE8 /* DataParserViewController.swift */,
+				9DEF09D71CB2A7B80001DDE8 /* ProvinceCityDistrictPickerView.swift */,
+			);
+			name = DataParser;
+			sourceTree = "<group>";
+		};
 		9DF9D7F11C1085ED0027D109 = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +225,7 @@
 		9DF9D7FC1C1085ED0027D109 /* SwiftDemos */ = {
 			isa = PBXGroup;
 			children = (
+				9DEF09D21CB29D420001DDE8 /* DataParser */,
 				7B9DB0241C44D05A002C0F29 /* Bluetools */,
 				7B3C8A2B1C43A7AC008081AD /* LocationManager */,
 				7B28855D1C3E11ED00A42FAA /* MotionManager */,
@@ -295,6 +312,7 @@
 				7B9DB0341C44D810002C0F29 /* signal-strength-2@2x.png in Resources */,
 				7B9DB0391C44D810002C0F29 /* signal-strength-4a@2x.png in Resources */,
 				7B9DB0321C44D810002C0F29 /* signal-strength-1@2x.png in Resources */,
+				9DEF09D61CB29E230001DDE8 /* province_data.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,12 +336,14 @@
 				7BE394271C3B63B2005AEEC6 /* AlertViewController.swift in Sources */,
 				7B026FC61C11896F005089B5 /* TableViewController.swift in Sources */,
 				7BE3E9421C47573F0024CC3F /* NibTableViewHeaderView.swift in Sources */,
+				9DEF09D41CB29DA60001DDE8 /* DataParserViewController.swift in Sources */,
 				7B183FED1C16786F007F25C7 /* ImageButton.swift in Sources */,
 				7B28855F1C3E121700A42FAA /* MotionManagerViewController.swift in Sources */,
 				7B9DB0281C44D3C4002C0F29 /* BluetoolsTableViewCell.swift in Sources */,
 				7B026FC21C11896F005089B5 /* NibTableViewCell.swift in Sources */,
 				7B991E0A1C4F6BF000E8E5F8 /* CharacteristicTableViewController.swift in Sources */,
 				7B3C8A2D1C43A7D1008081AD /* LocationManagerViewController.swift in Sources */,
+				9DEF09D81CB2A7B80001DDE8 /* ProvinceCityDistrictPickerView.swift in Sources */,
 				7B026FCA1C118A16005089B5 /* SelfSizeCellTableViewTableViewCell.swift in Sources */,
 				7BFD5C9D1C3FAB25004DD3BD /* AccelerometerViewController.swift in Sources */,
 				7B026FB91C11711D005089B5 /* RootTableViewController.swift in Sources */,

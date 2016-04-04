@@ -1,6 +1,0 @@
-framework module Pods_MyCart {
-  umbrella header "Pods-MyCart-umbrella.h"
-
-  export *
-  module * { export * }
-}

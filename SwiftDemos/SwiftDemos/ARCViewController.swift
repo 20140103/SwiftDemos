@@ -87,6 +87,18 @@ class ARCViewController: UIViewController {
             
         }
     }
+    
+    @IBAction func onClick(sender: AnyObject) {
+//        var beginNumber = 860860000030301;
+//        
+//        for _ in 1...50{
+////            print(beginNumber)
+////            print()
+//            print("\(beginNumber),\(String(beginNumber).md5())")
+//            beginNumber += 1
+//        }
+    }
+    @IBOutlet var onClick: UIButton!
     /*
     // MARK: - Navigation
 
@@ -98,3 +110,5 @@ class ARCViewController: UIViewController {
     */
 
 }
+
+

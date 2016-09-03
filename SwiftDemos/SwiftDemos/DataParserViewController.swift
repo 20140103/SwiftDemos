@@ -13,7 +13,7 @@ class DataParserViewController: UIViewController ,NSXMLParserDelegate{
     @IBOutlet weak var pcdPickerData: ProvinceCityDistrictPickerView!
     override func viewDidLoad() {
         super.viewDidLoad()
-xmlParser("province_data")
+        xmlParser("province_data")
         // Do any additional setup after loading the view.
     }
 

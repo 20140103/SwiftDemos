@@ -35,6 +35,13 @@
 		7B9DB0381C44D810002C0F29 /* signal-strength-4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9DB02F1C44D810002C0F29 /* signal-strength-4@2x.png */; };
 		7B9DB0391C44D810002C0F29 /* signal-strength-4a@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9DB0301C44D810002C0F29 /* signal-strength-4a@2x.png */; };
 		7B9DB03A1C44D810002C0F29 /* signal-strength-5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B9DB0311C44D810002C0F29 /* signal-strength-5@2x.png */; };
+		7BBD26F71D4B3F23005AF585 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD26F61D4B3F23005AF585 /* test.m */; };
+		7BBD26F91D4B3F6D005AF585 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD26F81D4B3F6D005AF585 /* String+Extension.swift */; };
+		7BBFF5761D77E3F000612D78 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBFF5751D77E3F000612D78 /* MapKitViewController.swift */; };
+		7BBFF5781D78152700612D78 /* LocationAnimationsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BBFF5771D78152700612D78 /* LocationAnimationsView.xib */; };
+		7BBFF57A1D78155400612D78 /* LocationAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBFF5791D78155400612D78 /* LocationAnimationsView.swift */; };
+		7BDD89E41D58298900078C6C /* TTTimeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD89E31D58298900078C6C /* TTTimeLine.swift */; };
+		7BDD89E61D582C5800078C6C /* TTTimeLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD89E51D582C5800078C6C /* TTTimeLineCell.swift */; };
 		7BE394271C3B63B2005AEEC6 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE394261C3B63B2005AEEC6 /* AlertViewController.swift */; };
 		7BE3E9401C4756DC0024CC3F /* NibTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BE3E93F1C4756DC0024CC3F /* NibTableViewHeaderView.xib */; };
 		7BE3E9421C47573F0024CC3F /* NibTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3E9411C47573F0024CC3F /* NibTableViewHeaderView.swift */; };
@@ -80,6 +87,14 @@
 		7B9DB02F1C44D810002C0F29 /* signal-strength-4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signal-strength-4@2x.png"; sourceTree = "<group>"; };
 		7B9DB0301C44D810002C0F29 /* signal-strength-4a@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signal-strength-4a@2x.png"; sourceTree = "<group>"; };
 		7B9DB0311C44D810002C0F29 /* signal-strength-5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signal-strength-5@2x.png"; sourceTree = "<group>"; };
+		7BBD26F51D4B3F23005AF585 /* SwiftDemos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftDemos-Bridging-Header.h"; sourceTree = "<group>"; };
+		7BBD26F61D4B3F23005AF585 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		7BBD26F81D4B3F6D005AF585 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		7BBFF5751D77E3F000612D78 /* MapKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		7BBFF5771D78152700612D78 /* LocationAnimationsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationAnimationsView.xib; sourceTree = "<group>"; };
+		7BBFF5791D78155400612D78 /* LocationAnimationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAnimationsView.swift; sourceTree = "<group>"; };
+		7BDD89E31D58298900078C6C /* TTTimeLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTTimeLine.swift; sourceTree = "<group>"; };
+		7BDD89E51D582C5800078C6C /* TTTimeLineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTTimeLineCell.swift; sourceTree = "<group>"; };
 		7BE394261C3B63B2005AEEC6 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		7BE3E93F1C4756DC0024CC3F /* NibTableViewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NibTableViewHeaderView.xib; sourceTree = "<group>"; };
 		7BE3E9411C47573F0024CC3F /* NibTableViewHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibTableViewHeaderView.swift; sourceTree = "<group>"; };
@@ -160,6 +175,9 @@
 			isa = PBXGroup;
 			children = (
 				7B3C8A2C1C43A7D1008081AD /* LocationManagerViewController.swift */,
+				7BBFF5751D77E3F000612D78 /* MapKitViewController.swift */,
+				7BBFF5771D78152700612D78 /* LocationAnimationsView.xib */,
+				7BBFF5791D78155400612D78 /* LocationAnimationsView.swift */,
 			);
 			name = LocationManager;
 			sourceTree = "<group>";
@@ -177,6 +195,22 @@
 				7B1949181C51DBF300B6C97F /* BleManager.swift */,
 			);
 			name = Bluetools;
+			sourceTree = "<group>";
+		};
+		7BBFF5741D77BE6600612D78 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
+		7BDD89E21D5828BB00078C6C /* TimeLine */ = {
+			isa = PBXGroup;
+			children = (
+				7BDD89E31D58298900078C6C /* TTTimeLine.swift */,
+				7BDD89E51D582C5800078C6C /* TTTimeLineCell.swift */,
+			);
+			name = TimeLine;
 			sourceTree = "<group>";
 		};
 		7BE394281C3B63C8005AEEC6 /* ARCView */ = {
@@ -225,6 +259,8 @@
 		9DF9D7FC1C1085ED0027D109 /* SwiftDemos */ = {
 			isa = PBXGroup;
 			children = (
+				7BBFF5741D77BE6600612D78 /* Animations */,
+				7BDD89E21D5828BB00078C6C /* TimeLine */,
 				9DEF09D21CB29D420001DDE8 /* DataParser */,
 				7B9DB0241C44D05A002C0F29 /* Bluetools */,
 				7B3C8A2B1C43A7AC008081AD /* LocationManager */,
@@ -235,6 +271,9 @@
 				7B026FB71C1170E8005089B5 /* Supporting Files */,
 				9DF9D8011C1085ED0027D109 /* Main.storyboard */,
 				7B026FB81C11711D005089B5 /* RootTableViewController.swift */,
+				7BBD26F61D4B3F23005AF585 /* test.m */,
+				7BBD26F51D4B3F23005AF585 /* SwiftDemos-Bridging-Header.h */,
+				7BBD26F81D4B3F6D005AF585 /* String+Extension.swift */,
 			);
 			path = SwiftDemos;
 			sourceTree = "<group>";
@@ -265,7 +304,7 @@
 		9DF9D7F21C1085ED0027D109 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = twt;
 				TargetAttributes = {
@@ -300,6 +339,7 @@
 			files = (
 				7B9DB0351C44D810002C0F29 /* signal-strength-2a@2x.png in Resources */,
 				9DF9D8081C1085ED0027D109 /* LaunchScreen.storyboard in Resources */,
+				7BBFF5781D78152700612D78 /* LocationAnimationsView.xib in Resources */,
 				7B026FC31C11896F005089B5 /* NibTableViewCell.xib in Resources */,
 				9DF9D8051C1085ED0027D109 /* Assets.xcassets in Resources */,
 				7B9DB0361C44D810002C0F29 /* signal-strength-3@2x.png in Resources */,
@@ -323,6 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BBD26F91D4B3F6D005AF585 /* String+Extension.swift in Sources */,
 				7B183FEB1C167402007F25C7 /* ARCViewController.swift in Sources */,
 				7BFD5CA31C3FB8FD004DD3BD /* DeviceMotionViewController.swift in Sources */,
 				7B9DB0261C44D395002C0F29 /* BluetoolsTableViewController.swift in Sources */,
@@ -332,6 +373,7 @@
 				7B9DB0211C4497F9002C0F29 /* MoreSensorViewController.swift in Sources */,
 				7B1949191C51DBF300B6C97F /* BleManager.swift in Sources */,
 				7B9DB0231C449D5E002C0F29 /* MagnetometerViewController.swift in Sources */,
+				7BBFF57A1D78155400612D78 /* LocationAnimationsView.swift in Sources */,
 				7B026FC81C118983005089B5 /* SelfSizeCellDemoTableViewController.swift in Sources */,
 				7BE394271C3B63B2005AEEC6 /* AlertViewController.swift in Sources */,
 				7B026FC61C11896F005089B5 /* TableViewController.swift in Sources */,
@@ -344,7 +386,11 @@
 				7B991E0A1C4F6BF000E8E5F8 /* CharacteristicTableViewController.swift in Sources */,
 				7B3C8A2D1C43A7D1008081AD /* LocationManagerViewController.swift in Sources */,
 				9DEF09D81CB2A7B80001DDE8 /* ProvinceCityDistrictPickerView.swift in Sources */,
+				7BDD89E41D58298900078C6C /* TTTimeLine.swift in Sources */,
+				7BDD89E61D582C5800078C6C /* TTTimeLineCell.swift in Sources */,
+				7BBD26F71D4B3F23005AF585 /* test.m in Sources */,
 				7B026FCA1C118A16005089B5 /* SelfSizeCellTableViewTableViewCell.swift in Sources */,
+				7BBFF5761D77E3F000612D78 /* MapKitViewController.swift in Sources */,
 				7BFD5C9D1C3FAB25004DD3BD /* AccelerometerViewController.swift in Sources */,
 				7B026FB91C11711D005089B5 /* RootTableViewController.swift in Sources */,
 				9DF9D7FE1C1085ED0027D109 /* AppDelegate.swift in Sources */,
@@ -462,12 +508,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SwiftDemos/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = twt.com.SwiftDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemos/SwiftDemos-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -475,12 +524,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SwiftDemos/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = twt.com.SwiftDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemos/SwiftDemos-Bridging-Header.h";
 			};
 			name = Release;
 		};

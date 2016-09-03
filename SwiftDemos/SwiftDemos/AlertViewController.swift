@@ -21,7 +21,7 @@ class AlertViewController: UIViewController,UIPopoverPresentationControllerDeleg
     }
     
     func showPopover(sender:AnyObject){
-//        showAlertPopoverPressentation((sender as! UIBarButtonItem).)
+//        showAlertPopoverPressentation(sender as! UIBarButtonItem)
     }
     
     
@@ -47,7 +47,7 @@ class AlertViewController: UIViewController,UIPopoverPresentationControllerDeleg
         alertController.addTextFieldWithConfigurationHandler {
             (textField: UITextField!) -> Void in
             textField.placeholder = "登录"
-            NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("alertTextFieldDidChange:"), name: UITextFieldTextDidChangeNotification, object: textField)
+            NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(AlertViewController.alertTextFieldDidChange(_:)), name: UITextFieldTextDidChangeNotification, object: textField)
         }
         alertController.addTextFieldWithConfigurationHandler {
             (textField: UITextField!) -> Void in

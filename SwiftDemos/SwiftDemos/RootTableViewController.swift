@@ -49,6 +49,8 @@ class RootTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        //self.tableView.transform = CGAffineTransformMakeRotation(CGFloat(M_PI / 2))
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -58,37 +60,37 @@ class RootTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return themes.count
-    }
-
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return themes[section].demos.count
-    }
-
-    
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
-
-        // Configure the cell...
-        cell.textLabel?.text = themes[indexPath.section].demos[indexPath.row].demoTitle
-        cell.detailTextLabel?.text = themes[indexPath.section].demos[indexPath.row].viewControllerID
-        return cell
-    }
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return themes[section].themeName
-    }
-    
-    
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        tableView.deselectRowAtIndexPath(indexPath, animated: true)
-        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier(themes[indexPath.section].demos[indexPath.row].viewControllerID)
-        vc.title = themes[indexPath.section].demos[indexPath.row].demoTitle
-        
-        self.navigationController?.pushViewController(vc, animated: true)
-    }
+//    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+//        // #warning Incomplete implementation, return the number of sections
+//        return themes.count
+//    }
+//
+//    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        // #warning Incomplete implementation, return the number of rows
+//        return themes[section].demos.count
+//    }
+//
+//    
+//    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+//        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+//
+//        // Configure the cell...
+//        cell.textLabel?.text = themes[indexPath.section].demos[indexPath.row].demoTitle
+//        cell.detailTextLabel?.text = themes[indexPath.section].demos[indexPath.row].viewControllerID
+//        return cell
+//    }
+//    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+//        return themes[section].themeName
+//    }
+//    
+//    
+//    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+//        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+//        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier(themes[indexPath.section].demos[indexPath.row].viewControllerID)
+//        vc.title = themes[indexPath.section].demos[indexPath.row].demoTitle
+//        
+//        self.navigationController?.pushViewController(vc, animated: true)
+//    }
     /*
     // Override to support conditional editing of the table view.
     override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
